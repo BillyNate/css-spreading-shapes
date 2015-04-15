@@ -1,0 +1,11 @@
+/* Cross by Lea Verou, http://lea.verou.me */
+.ptrnbg.ptrn-cross {
+	background-color: #708090;
+	background-image:
+		radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent),
+		radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent),
+		linear-gradient(#a8b1bb 8px, transparent 8px),
+		linear-gradient(90deg, #a8b1bb 8px, transparent 8px);
+	background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
+	background-position: 0 0, 50px 50px, 0 -4px, -4px 0;
+}

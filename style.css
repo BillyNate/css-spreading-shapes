@@ -89,7 +89,7 @@ body > p > a:hover {
 	clear:both;
 }
 
-	#patterns > li {
+	.ptrnbg {
 		position:relative;
 		width: 300px;
 		height:300px;
@@ -98,7 +98,7 @@ body > p > a:hover {
 		list-style:none;
 	}
 	
-	#patterns > li:not(:target) {
+	.ptrnbg:not(:target) {
 		cursor:pointer;
 		background-color:gray;
 		border-radius: 150px;
@@ -112,15 +112,15 @@ body > p > a:hover {
 					2px 2px 10px rgba(0,0,0,.6);
 	}
 	
-	#patterns > li:target {
+	.ptrnbg:target {
 		background: none !important;
 	}
 	
-	body[style] #patterns > li:not(:target) {
+	body[style] .ptrnbg:not(:target) {
 		display:none;
 	}
 	
-		#patterns > li > div {
+		.ptrnbg > div {
 			position:absolute;
 			top:235px;
 			left:55px;
@@ -134,7 +134,7 @@ body > p > a:hover {
 			box-shadow: 2px 2px 10px rgba(0,0,0,.5);
 		}
 		
-		#patterns > li:target > div {
+		.ptrnbg:target > div {
 			position:fixed;
 			top:auto;
 			left:20px;
@@ -146,7 +146,7 @@ body > p > a:hover {
 			font-size:200%;
 		}
 		
-		#patterns > li > div:after {
+		.ptrnbg > div:after {
 			content: "";
 			position:absolute;
 			top:-30px;
@@ -156,46 +156,46 @@ body > p > a:hover {
 			border-left-width:0;
 		}
 		
-		#patterns > li:target > div:after {
+		.ptrnbg:target > div:after {
 			border-width:30px;
 			border-left-width:0;
 			top:-60px;
 			left:60px;
 		}
 		
-			#patterns > li h2,
-			#patterns > li p,
-			#patterns > li textarea {
+			.ptrnbg h2,
+			.ptrnbg p,
+			.ptrnbg textarea {
 				color:white;
 				text-shadow: .05em .05em .1em rgba(0,0,0,.4);
 			}
 			
-			#patterns > li h2 {
+			.ptrnbg h2 {
 				font-size:140%;
 			}
 			
-			#patterns > li:target h2 {
+			.ptrnbg:target h2 {
 				float: left;
 				margin-bottom: .3em;
 			}
 			
-			#patterns > li .bytesize {
+			.ptrnbg .bytesize {
 				font-weight:normal;
 				opacity:.7;
 			}
 			
-			#patterns > li p {
+			.ptrnbg p {
 				font-size:85%;
 				line-height:1.8;
 				opacity:.7;
 				text-shadow: none;
 			}
 			
-			#patterns > li:target p {
+			.ptrnbg:target p {
 				float: right;
 			}
 			
-			#patterns > li textarea {
+			.ptrnbg textarea {
 				display:none;
 				width:100%;
 				color:white;
@@ -209,11 +209,11 @@ body > p > a:hover {
 				border-radius: 1px; /* Opera bug fix */
 			}
 			
-			#patterns > li:target textarea {
+			.ptrnbg:target textarea {
 				display:block;
 			}
 			
-			#patterns > li .close {
+			.ptrnbg .close {
 				display:none;
 				position:absolute;
 				top:-.5em;
@@ -231,11 +231,11 @@ body > p > a:hover {
 				box-shadow: 1px 1px 5px rgba(0,0,0,.5);
 			}
 			
-			#patterns > li .close:hover {
+			.ptrnbg .close:hover {
 				background:black;
 			}
 			
-			#patterns > li:target .close {
+			.ptrnbg:target .close {
 				display:block;
 			}
 			

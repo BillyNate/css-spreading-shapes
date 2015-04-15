@@ -1,0 +1,11 @@
+/* Wave by Paul Salentiny */
+.ptrnbg.ptrn-wave {
+	background-color: #48b;
+	background-image:
+		linear-gradient(#fff 50%, rgba(255,255,255,0) 0),
+		radial-gradient(circle closest-side, #fff 53%, rgba(255,255,255,0) 0),
+		radial-gradient(circle closest-side, #fff 50%, rgba(255,255,255,0) 0);
+	background-size: 110px 200px;
+	background-position: 0 0, 0 0, 55px 0;
+	background-repeat: repeat-x;
+}
