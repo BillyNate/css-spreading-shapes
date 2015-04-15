@@ -1,0 +1,35 @@
+{
+  "name": "CSS3Patterns",
+  "version": "0.1.0",
+  "description": "CSS3 Patterns Gallery",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BillyNate",
+  "contributors": {
+    "name": "Lea Verou"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BillyNate/css3patterns.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BillyNate/css3patterns/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-jade": "~0.11.0",
+    "grunt-autoprefixer": "^2.0.0",
+    "grunt-contrib-cssmin": "^0.12.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "recursive-readdir": "^1.2.0"
+  },
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/BillyNate/css3patterns.git",
+    "basePath": "dist/css",
+    "files": ["*.css"]
+  }
+}
