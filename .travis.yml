@@ -1,0 +1,24 @@
+branches:
+    only:
+        - master
+
+language: node_js
+
+node_js:
+    - "stable"
+
+env:
+    global:
+        secure: "jNLUkU3M1FKQMoH52UJAlsJfwkT4DvSdnVXmo1kX/sTxL7jKUnjZdKOcAFbt3opsrS0TIfnB7Ig5v8j89MYq/rny1HmbxQ8lsv2IbcJZlacZLkJ8swUJJb1koFJ+cE24ebR8FRiLlyLbFVG5pICctLBzHhTSf/iAUJGjJnRi5Bg="
+
+before_install:
+    - npm install -g grunt-cli
+
+install:
+    - npm install
+
+script:
+    - grunt deploy
+
+after_success:
+    - bash travis-deploy.sh

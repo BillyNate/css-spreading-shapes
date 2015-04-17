@@ -100,5 +100,5 @@ module.exports = function(grunt) {
 
   grunt.registerTask('default', ['readFileList','autoprefixer','cssmin','jade','watch']);
 
-  grunt.registerTask('deploy', ['autoprefixer','cssmin','jade']);
+  grunt.registerTask('deploy', ['readFileList','autoprefixer','cssmin','jade']);
 };
