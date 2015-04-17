@@ -1,7 +1,7 @@
 {
-  "name": "CSS3Patterns",
+  "name": "css-spreading-shapes",
   "version": "0.1.0",
-  "description": "CSS3 Patterns Gallery",
+  "description": "CSS background patterns",
   "main": "Gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BillyNate/css3patterns.git"
+    "url": "https://github.com/BillyNate/css-spreading-shapes.git"
   },
   "bugs": {
-    "url": "https://github.com/BillyNate/css3patterns/issues"
+    "url": "https://github.com/BillyNate/css-spreading-shapes/issues"
   },
   "license": "MIT",
   "devDependencies": {
@@ -28,7 +28,7 @@
   },
   "autoupdate": {
     "source": "git",
-    "target": "git://github.com/BillyNate/css3patterns.git",
+    "target": "git://github.com/BillyNate/css-spreading-shapes.git",
     "basePath": "dist/css",
     "files": ["*.css"]
   }

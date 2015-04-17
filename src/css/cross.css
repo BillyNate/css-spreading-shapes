@@ -1,5 +1,5 @@
 /* Cross by Lea Verou, http://lea.verou.me */
-.ptrnbg.ptrn-cross {
+.bgpattern-cross {
 	background-color: #708090;
 	background-image:
 		radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent),

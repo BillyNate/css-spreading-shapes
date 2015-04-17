@@ -1,5 +1,5 @@
 /* Pyramid by Paul Salentiny */
-.ptrnbg.ptrn-pyramid {
+.bgpattern-pyramid {
 	background-color: #561a16;
 	background-image:
 		linear-gradient(315deg, transparent 75%, #d45d55 0),

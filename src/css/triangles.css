@@ -1,5 +1,5 @@
 /* Triangles by Paul Salentiny, http://paulegan.org */
-.ptrnbg.ptrn-triangles {
+.bgpattern-triangles {
 	background-color: #404080;
 	background-image: linear-gradient(45deg, transparent 50%, rgba(0,0,0,0.3) 50%);
 	background-size: 50px 50px;

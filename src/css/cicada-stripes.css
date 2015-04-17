@@ -1,5 +1,5 @@
 /* Cicada stripes by Randy Merrill, http://forthedeveloper.com */
-.ptrnbg.ptrn-cicada-stripes {
+.bgpattern-cicada-stripes {
 	background-color: #026873;
 	background-image:
 		linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%),

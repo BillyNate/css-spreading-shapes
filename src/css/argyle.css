@@ -1,5 +1,5 @@
 /* Argyle by Anna Kassner, http://annamation.ca */
-.ptrnbg.ptrn-argyle {
+.bgpattern-argyle {
 	background-color: #6d695c;
 	background-image:
 		repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),

@@ -60,11 +60,11 @@ html(lang="en")
 			li Textareas are editable
 			li <a href="#browser-support">Browser support</a>
 			li <a href="#new-submissions">Submit a new one</a>
-			li <a href="https://github.com/LeaVerou/CSS3-Patterns-Gallery">Github repo</a>
+			li <a href="https://github.com/BillyNate/css-spreading-shapes">Github repo</a>
 			li Enjoy!
 		ul#patterns
 			- each pattern in patterns
-				li(class="ptrnbg ptrn-"+pattern.class, id=pattern.class)
+				li(class="bgpattern-"+pattern.class, id=pattern.class)
 					div
 						h2
 							a(href="#"+pattern.class)=pattern.name
@@ -81,7 +81,7 @@ html(lang="en")
 		p The patterns themselves should work on <strong>Firefox 3.6+</strong>, <strong>Chrome</strong>, <strong>Safari 5.1</strong>, <strong>Opera 11.10+</strong> and <strong>IE10+</strong>. However, implementation limitations might cause some of them to not be displayed correctly even on those browsers (for example at the time of writing, Gecko is quite buggy with radial gradients).
 		p Also, this gallery won’t work in Firefox 3.6 and IE10, even though they support gradients, due to a JavaScript limitation.
 		h2#new-submissions Submission guidelines
-		p If you have a new pattern to submit, please <a href="https://github.com/LeaVerou/CSS3-Patterns-Gallery">send a pull request</a>. However, please bear in mind that I can't accept all submissions, sorry for that. For a pattern to be accepted, the following factors are considered (in descending order of importance):
+		p If you have a new pattern to submit, please <a href="https://github.com/BillyNate/css-spreading-shapes">send a pull request</a>. However, please bear in mind that I can't accept all submissions, sorry for that. For a pattern to be accepted, the following factors are considered (in descending order of importance):
 		ul
 			li Does it present a new technique?
 			li Is the number of gradients and color stops worth the effect? The whole point of those patterns is to make page loading faster by reducing file size and HTTP requests without the unreadable gibberish that data URIs add in our stylesheets. If your pattern needs a 2KB code for example (which becomes 10KB when used in production, due to all the prefixes), then it's not very useful, except serving as a proof of concept.

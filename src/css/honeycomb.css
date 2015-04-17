@@ -1,5 +1,5 @@
 /* HoneyComb by Paul Salentiny */
-.ptrnbg.ptrn-honeycomb {
+.bgpattern-honeycomb {
 	background-color: #fb1;
 	background-image:
 		radial-gradient(circle farthest-side at 0% 50%, #fb1 23.5%, rgba(240,166,17,0) 0),

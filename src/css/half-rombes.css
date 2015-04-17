@@ -1,5 +1,5 @@
 /* Half-Rombes by Valentin Agachi, http://agachi.name */
-.ptrnbg.ptrn-half-rombes {
+.bgpattern-half-rombes {
 	background: #36c;
 	background-image:
 		linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%),

@@ -1,5 +1,5 @@
 /* triangles in 7 colors by Maarten v/d Velde, http://www.ideogram.nl */
-.ptrnbg.ptrn-triangles-in-7-colors {
+.bgpattern-triangles-in-7-colors {
 	background-color: #fff;
 	background-image:
 		repeating-linear-gradient(-30deg, transparent, transparent 35px, rgba(255,128,0,.3) 35px, rgba(255,128,0,.3) 70px),

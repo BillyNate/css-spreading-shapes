@@ -1,5 +1,5 @@
 /* Starry night by Lea Verou, http://lea.verou.me */
-.ptrnbg.ptrn-starry-night {
+.bgpattern-starry-night {
 	background-color: #000;
 	background-image:
 		radial-gradient(#fff, rgba(255,255,255,.2) 2px, transparent 40px),

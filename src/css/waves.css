@@ -1,5 +1,5 @@
 /* Waves by Lea Verou, http://lea.verou.me */
-.ptrnbg.ptrn-waves {
+.bgpattern-waves {
 	background-color: #708090;
 	background-image:
 		radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent),

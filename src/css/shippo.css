@@ -1,5 +1,5 @@
 /* Shippo by Lea Verou, http://lea.verou.me */
-.ptrnbg.ptrn-shippo {
+.bgpattern-shippo {
 	background-color: #def;
 	background-image:
 		radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%),

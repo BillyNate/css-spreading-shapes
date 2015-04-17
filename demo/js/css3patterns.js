@@ -20,7 +20,7 @@
 		
 		if(pattern) {
 			recentPattern = currentPattern = pattern;
-			document.body.className = pattern.className;
+			document.body.className = 'patternfocus';
 			pattern.snippet.subjects[1] = document.body;
 		}
 		else {

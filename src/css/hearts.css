@@ -1,5 +1,5 @@
 /* Hearts by Lea Verou, http://lea.verou.me */
-.ptrnbg.ptrn-hearts {
+.bgpattern-hearts {
 	background-color: #b03;
 	background-image: 
 		radial-gradient(circle closest-side at 60% 43%, #b03 26%, rgba(187,0,51,0) 27%),

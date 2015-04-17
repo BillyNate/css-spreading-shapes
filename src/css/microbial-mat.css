@@ -1,5 +1,5 @@
 /* Microbial Mat by Logan McBroom, http://logan.mcbroom.me */
-.ptrnbg.ptrn-microbial-mat {
+.bgpattern-microbial-mat {
 	background: #8a3;
 	background-image:
 		radial-gradient(circle at 0% 50%, rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 16, 48, 0) 11px),
