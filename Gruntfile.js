@@ -98,7 +98,9 @@ module.exports = function(grunt) {
     });
   });
 
-  grunt.registerTask('default', ['readFileList','autoprefixer','cssmin','jade','watch']);
+  grunt.registerTask('default', ['readFileList','autoprefixer','cssmin','jade']);
 
-  grunt.registerTask('deploy', ['readFileList','autoprefixer','cssmin','jade']);
+  grunt.registerTask('deploy', ['default']);
+
+  grunt.registerTask('dev', ['default','watch']);
 };
