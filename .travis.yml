@@ -19,6 +19,3 @@ install:
 
 script:
     - grunt deploy
-
-after_success:
-    - bash travis-deploy.sh
